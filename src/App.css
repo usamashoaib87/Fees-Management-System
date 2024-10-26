@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+input:hover,
+select:hover {
+    box-shadow: 1px 1px 8px rgb(102, 197, 228);
+}
+::-webkit-scrollbar {
+    width: 13px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #EAF1F6;
+} 
+::-webkit-scrollbar-thumb {
+    background-color: #98B6D2;
+    border-radius: 6px;
+    border: 2px solid #f1f1f1;
+}  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #1E40AF;
+}
+.transition-margin-left {
+    transition: margin-left 0.3s ease-in-out;
+}
+  
